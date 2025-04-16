@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MillsCome Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #1a1a1a, #111);
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    header p {
+      margin-top: 10px;
+      color: #bbb;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: #111;
+      padding: 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bfff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .feature {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, background 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+      background: #222;
+    }
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .feature p {
+      color: #ccc;
+    }
+    .cta {
+      background: #00bfff;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+      margin-top: 80px;
+      border-radius: 20px;
+    }
+    .cta h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+    .cta a {
+      background: #fff;
+      color: #00bfff;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #f0f0f0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MillsCome Studio</h1>
+    <p>Создание сайтов и цифровых решений под ключ</p>
+  </header>  <nav>
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+  </nav>  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы — студия, которая делает не просто сайты, а цифровые продукты, вызывающие доверие и эмоции. Мы верим в эстетику, производительность и современный подход к разработке.</p>
+  </section>  <section id="services">
+    <h2>Наши услуги</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>Сайты под ключ</h3>
+        <p>Дизайн, разработка, публикация — всё в одном.</p>
+      </div>
+      <div class="feature">
+        <h3>Одностраничники</h3>
+        <p>Идеально для рекламы, бизнеса и презентаций.</p>
+      </div>
+      <div class="feature">
+        <h3>Интернет-магазины</h3>
+        <p>Простая и быстрая платформа для продаж.</p>
+      </div>
+    </div>
+  </section>  <section class="cta">
+    <h2>Хотите сайт, который вызывает доверие?</h2>
+    <a href="https://t.me/MillersonXIII" target="_blank">Связаться в Telegram</a>
+  </section>  <footer>
+    <p>Сделано для рекламы на Дзен</p>
+  </footer>
+</body>
+</html>
